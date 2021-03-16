@@ -1,0 +1,11 @@
+import sys
+
+def pay(hour, prise, bonus):
+    amount = hour * prise + bonus
+    return  amount
+
+h = float(sys.argv[1])
+p = float(sys.argv[2])
+b = float(sys.argv[3])
+
+print('Заработная плата = ' + str(pay(h, p, b)))
