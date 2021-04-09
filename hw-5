@@ -1,6 +1,0 @@
-from functools import reduce
-s = [l for l in range(100,1002) if l % 2 == 0]
-multy = reduce(lambda x,y: x * y, s)
-sum = reduce(lambda x,y: x + y, s)
-print (multy)
-print (sum)
